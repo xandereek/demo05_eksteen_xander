@@ -14,19 +14,104 @@
 </head>
 
 <body>
-
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.jpg" alt="logo" width="30">
+                HikeApp
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trails</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Saved</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="/images/logo.jpg" alt="" width="72"
+            height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">HikeApp</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+                Quickly find information about various hikes around the world, their length
+                the time estimate, stuff to bring etc
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+                    class="btn btn-primary btn-lg px-4 gap-3">Login</button> <button type="button"
+                    class="btn btn-outline-secondary btn-lg px-4">Signup</button> </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="/images/hike1.jpg" class="card-img-top" alt="hike 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Hike 1</h5>
+                        <p class="card-text">Very pretty long hike</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/images/hike2.jpg" class="card-img-top" alt="hike 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Hike 2</h5>
+                        <p class="card-text">This is a slightly longer hike than hike 1 but the extra effort pays off</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/images/hike3.jpg" class="card-img-top" alt="hike 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This hike is not as long as the other 3 but is easier to navigate and can be just as pretty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
